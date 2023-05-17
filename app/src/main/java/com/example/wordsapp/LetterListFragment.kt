@@ -14,6 +14,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.wordsapp.databinding.FragmentLetterListBinding
 
+
+/**
+ * Entry fragment for the app. Displays a [RecyclerView] of letters.
+ */
 class LetterListFragment : Fragment() {
 
     private var _binding: FragmentLetterListBinding? = null

@@ -83,6 +83,8 @@ class WordAdapter(private val letterId: String, context: Context) :
 
         // Set the text of the WordViewHolder
         holder.button.text = item
+
+        // Assigns a [OnClickListener] to the button contained in the [ViewHolder]
         holder.button.setOnClickListener {
             val queryUrl: Uri = Uri.parse(
                 "${WordListFragment.SEARCH_PREFIX}${item}"
