@@ -1,5 +1,15 @@
 # Words App
 
+При нажатии кнопки с буквой отображаются слова из ресурса с масивом строк. По пять случайных слов, начинающихся с этой буквы, в алфавитном порядке.
+
+Макет с кнопками букв - recyclerView линейный или решётка по нажатию на кнопку.
+
+При нажатии слова в фрагменте со словами ищет значение слова в гугле.
+
+Navigation component, view binding, recyclerView с изменяемым макетом, fragments, uri parse.
+
+<img src="Screenshot_20230609_001850.png" width=80%>
+
 This folder contains the source code for the Words app codelab.
 
 
